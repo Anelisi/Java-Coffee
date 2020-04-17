@@ -19,12 +19,12 @@ public class Livro implements Publicacao {
 
     public String detalhes() {
         return "Livro: " +
-                "título= '" + titulo + '\'' +
-                "\n, autor= '" + autor + '\'' +
-                "\n, totPaginas= " + totPaginas +
-                "\n, pagAtual= " + pagAtual +
-                "\n, aberto= " + aberto +
-                "\n, leitor= " + leitor.getNome();
+                "título = '" + titulo + '\'' +
+                "\n, autor = '" + autor + '\'' +
+                "\n, totPaginas = " + totPaginas +
+                "\n, pagAtual = " + pagAtual +
+                "\n, aberto = " + aberto +
+                "\n, leitor = " + leitor.getNome();
     }
 
     public String getTitulo() {
