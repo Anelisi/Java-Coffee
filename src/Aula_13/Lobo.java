@@ -1,4 +1,9 @@
 package Aula_13;
 
-public class Lobo {
+import Aula_12.Mamifero;
+
+public class Lobo extends Mamifero {
+    public void emitirSom() {
+        System.out.println("Aaaaaaooooooouuuuuuuuu...");
+    }
 }
